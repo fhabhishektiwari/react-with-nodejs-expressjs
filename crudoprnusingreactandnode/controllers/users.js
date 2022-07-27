@@ -31,5 +31,5 @@ export const updateUser=(req,res)=>{
     user.email=req.body.email;
     user.contact=req.body.contact;
 
-    res.send("User updated successfully");
+    res.send("User updated successfully.");
 }
