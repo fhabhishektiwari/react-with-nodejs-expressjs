@@ -1,0 +1,16 @@
+backend-------
+npm init
+npm i --save cors express uuid
+npm i --save-dev nodemon
+npm i body-parser
+
+creating index.js file inside main folder
+
+added in package.json:  "type": "module",    "server": "nodemon index.js"
+
+
+
+frontend-----
+npx create-react-app frontend
+
+npm i --save react-router-dom react-tostify axios
